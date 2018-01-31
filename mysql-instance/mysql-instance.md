@@ -17,7 +17,7 @@ When you create an instance of Oracle MySQL Cloud Service, you must associate a 
 1. Open a Git bash command-line window (or terminal in Linux).
 2. Generate the SSH key pair: 
 
-<code>ssh-keygen -t rsa -N "<i>passphrase</i>" -b "<i>2048</i>" -C "<i>key comment</i>" -f <i>path/root_name</i></code>
+   <code>ssh-keygen -t rsa -N "<i>passphrase</i>" -b "<i>2048</i>" -C "<i>key comment</i>" -f <i>path/root_name</i></code>
 
 Argument|Description
 --------|-----------
@@ -42,6 +42,7 @@ Argument|Description
    * **Metering Frequency:**: Hourly
 
    ![mysql04.png](img/mysql04.png)
+
    [Description of the illustration mysql04.png](files/mysql04.txt)
 
 9. Enter or select the following information, and then click **Next**:
@@ -70,5 +71,3 @@ Argument|Description
 
    * [Using Oracle MySQL Cloud Service](http://docs.oracle.com/cloud/latest/mysql-cloud/UOMCS/toc.htm) in the Oracle Help Center
    * [Deploying a PHP Application to Oracle Application Container Cloud Service](https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID:19923) OBE
-
-

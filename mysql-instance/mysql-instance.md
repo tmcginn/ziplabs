@@ -19,13 +19,13 @@ When you create an instance of Oracle MySQL Cloud Service, you must associate a 
 
    <code>ssh-keygen -t rsa -N "<i>passphrase</i>" -b "<i>2048</i>" -C "<i>key comment</i>" -f <i>path/root_name</i></code>
 
-Argument|Description
---------|-----------
-`-t rsa`|Use the RSA algorithm
-<code>-N "<i>passphrase</i>"</code>|Passphrase to protect the use of the key (like a password). If you don't want to set a passphrase, don't enter anything between the quotation marks. **Note**: Although a passphrase isn't required, you should specify one as a security measure to protect the private key from unauthorized use.
-<code>-b "<i>2048</i>"</code>|Generate a 2048-bit key (default). A minimum of 2048 bits is recommended for SSH-2 RSA. 
-<code>-C "<i>key commment</i>"</code>|A name to identify the key.
-<code>-f <i>path/root_name</i></code>|The location where the key pair is saved and the root name for the files. For example, if you make `id_rsa` the root name, then the name of the private key is `id_rsa`, and the name of the public is `id_rsa.pub`.
+    Argument|Description
+    --------|-----------
+    `-t rsa`|Use the RSA algorithm
+    <code>-N "<i>passphrase</i>"</code>|Passphrase to protect the use of the key (like a password). If you don't want to set a passphrase, don't enter anything between the quotation marks. **Note**: Although a passphrase isn't required, you should specify one as a security measure to protect the private key from unauthorized use.
+    <code>-b "<i>2048</i>"</code>|Generate a 2048-bit key (default). A minimum of 2048 bits is recommended for SSH-2 RSA. 
+    <code>-C "<i>key commment</i>"</code>|A name to identify the key.
+    <code>-f <i>path/root_name</i></code>|The location where the key pair is saved and the root name for the files. For example, if you make `id_rsa` the root name, then the name of the private key is `id_rsa`, and the name of the public is `id_rsa.pub`.
 
 ## Create an Instance of Oracle MySQL Cloud Service ##
 

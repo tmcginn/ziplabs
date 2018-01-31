@@ -15,7 +15,7 @@ When you create an instance of Oracle MySQL Cloud Service, you must associate a 
 ## Create an SSH Key Pair ##
 
 1. Open a Git bash command-line window (or terminal in Linux).
-2. Generate the SHH key pair: 
+2. Generate the SSH key pair: 
 
 `ssh-keygen -t rsa -N "passphrase" -b "2048" -C "key comment" -f path/root_name`
 
@@ -42,7 +42,7 @@ Argument|Description
    * **Metering Frequency:**: Hourly
 
    ![mysql04.png](img/mysql04.png)
-   [Description of the illustration mysql04.png](txt/mysql04.txt)
+   [Description of the illustration mysql04.png](files/mysql04.txt)
 
 9. Enter or select the following information, and then click **Next**:
    * **Compute Shape: OC3-1.0 OCPU, 7.5GB RAM**
@@ -57,18 +57,18 @@ Argument|Description
    * **Backup Destination**: None
 
    ![mysql05.png](img/mysql05.png)
-   [Description of the illustration mysql05.png](txt/mysql05.txt)  
+   [Description of the illustration mysql05.png](files/mysql05.txt)  
 
 10. Review the details of your instance and then click **Create**.
    ![mysql06.png](img/mysql06.png)
-   [Description of the illustration mysql06.png](txt/mysql06.txt) 
+   [Description of the illustration mysql06.png](files/mysql06.txt) 
 11. Wait until the instance is created.
    ![mysql07.png](img/mysql07.png)
-   [Description of the illustration mysql06.png](txt/mysql07.txt) 
+   [Description of the illustration mysql06.png](files/mysql07.txt) 
 
 ## Want to Learn More? ##
 
-    * [Using Oracle MySQL Cloud Service](http://docs.oracle.com/cloud/latest/mysql-cloud/UOMCS/toc.htm) in the Oracle Help Center
-    * [Deploying a PHP Application to Oracle Application Container Cloud Service](https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID:19923) OBE
+   * [Using Oracle MySQL Cloud Service](http://docs.oracle.com/cloud/latest/mysql-cloud/UOMCS/toc.htm) in the Oracle Help Center
+   * [Deploying a PHP Application to Oracle Application Container Cloud Service](https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID:19923) OBE
 
 

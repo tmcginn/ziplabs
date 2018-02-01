@@ -79,6 +79,8 @@ For your application to run properly on Oracle Application Container Cloud Servi
 4. Update the published property of the book. 
 
    <code>curl -i -X PUT -H "Content-Type:application/json" -d "{ \"title\" : \"Hamlet\",  \"author\" : \"William Shakespeare\",\"isbn\":\"978-0486272788\", \"published\":\"1980\",\"genre\":\"Novel\"}" <b>app_endpoint</b>/books/1</code>
+   
+   **Note:** The PUT method, update all the properties of the entity, if you don't specify one, the property is replaced with null.
 
 5. Delete the book.
 
